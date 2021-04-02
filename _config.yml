@@ -10,6 +10,8 @@ keywords: ["errol", "blog"]
 author: "Errol Lin"
 language: "zh-TW"
 timezone: "Asia/Taipei"
+logo:
+  text: Errol
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -35,10 +37,7 @@ skip_render:
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
-external_link:
-  enable: true # Open external links in new tab
-  field: site # Apply to the whole site
-  exclude: ""
+external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -65,6 +64,7 @@ index_generator:
 default_category: uncategorized
 category_map:
 tag_map:
+home_posts_tag: true # show posts tags
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: editAyer
+theme: minos
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -101,3 +101,6 @@ deploy:
   type: git
   repo: https://github.com/LJC0915/blog
   branch: master
+
+article:
+  readtime: false
