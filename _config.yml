@@ -8,7 +8,7 @@ subtitle: "a place for error"
 description: "Errol Projects - a place for error"
 keywords: ["errol", "blog"]
 author: "Errol Lin"
-language: "zh-TW"
+language: "zh-tw"
 timezone: "Asia/Taipei"
 logo:
   text: Errol
@@ -104,3 +104,8 @@ deploy:
 
 article:
   readtime: false
+
+menu:
+  文章列表: /archives
+  分類: /categories
+  #關於我: /about
