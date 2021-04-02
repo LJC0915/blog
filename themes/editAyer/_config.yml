@@ -101,7 +101,7 @@ clickLove: false
 # 页面宽度自定义（不建议修改，可能造成布局混乱），article_width文章宽度，sidebar_width侧边栏宽度
 layout:
   article_width: 80rem
-  sidebar_width: 8rem
+  sidebar_width: 10rem
 
 # 评论：1、Valine(推荐)；2、Gitalk；3、MiniValine
 
