@@ -111,6 +111,9 @@ menu:
   #關於我: /about
 
 feed:
+  enable: true
   type: atom
   path: atom.xml
   limit: 20
+  content_limit: 140
+  order_by: -date
