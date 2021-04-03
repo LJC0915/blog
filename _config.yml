@@ -117,3 +117,6 @@ feed:
   limit: 20
   content_limit: 140
   order_by: -date
+
+sitemap:
+  path: sitemap.xml
