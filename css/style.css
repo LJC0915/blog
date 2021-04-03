@@ -193,11 +193,13 @@ a.tag.article-tag {
     opacity: 0.1;
     background: url("../images/quote-left.svg") 0 0/3rem 3rem no-repeat; }
 
-.article blockquote footer cite {
-  font-style: normal; }
-  .article blockquote footer cite:before {
-    content: "—";
-    padding: 0 0.3em; }
+.article blockquote footer {
+  font-size: 0.9rem; }
+  .article blockquote footer cite {
+    font-style: normal; }
+    .article blockquote footer cite:before {
+      content: "—";
+      padding: 0 0.3em; }
 
 .article .gist table tr:hover {
   background: transparent; }
