@@ -109,3 +109,8 @@ menu:
   文章列表: /archives
   分類: /categories
   #關於我: /about
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
