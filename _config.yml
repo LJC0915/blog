@@ -102,4 +102,6 @@ theme: minos
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
+  type: git
+  repo: https://github.com/LJC0915/blog.git
+  branch: deploy
